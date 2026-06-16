@@ -1,4 +1,3 @@
 # Streak Counter
-<img width="1280" height="720" alt="Streak Counter" src="https://github.com/user-attachments/assets/9d25b867-431e-474e-a978-3725ea5f3b1c" />
 
-<img width="802" height="525" alt="Screenshot 2026-06-15 205814" src="https://github.com/user-attachments/assets/bd3e2da0-ea86-40c6-aeb8-ff02b4e9e589" />
+<img width="1280" height="720" alt="Streak Counter" src="https://github.com/user-attachments/assets/9d25b867-431e-474e-a978-3725ea5f3b1c" />
