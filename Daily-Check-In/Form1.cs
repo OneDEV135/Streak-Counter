@@ -321,6 +321,7 @@ namespace Daily_Check_In
             if (isSettingsOpen)
             {
                 form2.Close();
+                isSettingsOpen = false;
                 return;
             }
 
