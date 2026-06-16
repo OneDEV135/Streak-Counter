@@ -174,6 +174,10 @@ namespace Daily_Check_In
                     NextDay();
                 }
             }
+            else if(DateTime.Today.Day < appData.date.Day)
+            {
+                appData.date = DateTime.Today;
+            }
         }
 
         private void NextDay()
@@ -340,15 +344,20 @@ namespace Daily_Check_In
 
         // Debug features /////////////////
 
+        public bool isDebugEnabled = false;
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+            
             if (e.KeyCode == Keys.F12) // Debug
             {
-                debug_tomorrowButton.Visible = true;
-                debug_appearanceButton.Visible = true;
-                debug_screenButton.Visible = true;
-                debug_saveButton.Visible = true;
-                debug_loadButton.Visible = true;
+                isDebugEnabled = isDebugEnabled ? false : true;
+
+                debug_tomorrowButton.Visible = isDebugEnabled;
+                debug_appearanceButton.Visible = isDebugEnabled;
+                debug_screenButton.Visible = isDebugEnabled;
+                debug_saveButton.Visible = isDebugEnabled;
+                debug_loadButton.Visible = isDebugEnabled;
             }
         }
 

@@ -17,6 +17,6 @@ namespace Daily_Check_In
         // settings
         public string title { get; set; } = "Title here";
         public int maxPauseDays { get; set; } = 0;
-        public bool isDarkMode { get; set; } = false;
+        public bool isDarkMode { get; set; } = true;
     }
 }

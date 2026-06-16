@@ -77,7 +77,7 @@
             // titleInput
             // 
             titleInput.Location = new Point(6, 60);
-            titleInput.MaxLength = 20;
+            titleInput.MaxLength = 30;
             titleInput.Name = "titleInput";
             titleInput.PlaceholderText = "Title here";
             titleInput.Size = new Size(294, 23);

@@ -189,7 +189,7 @@ namespace Daily_Check_In
             {
                 titleInput.Text = "Title here";
                 maxPauseInput.Value = 2;
-                darkCheck.Checked = false;
+                darkCheck.Checked = true;
                 SaveData();
 
                 if (this.Owner is Form1 parent)
@@ -211,7 +211,7 @@ namespace Daily_Check_In
             {
                 titleInput.Text = "Title here";
                 maxPauseInput.Value = 2;
-                darkCheck.Checked = false;
+                darkCheck.Checked = true;
                 SaveData();
 
                 if (this.Owner is Form1 parent)
